@@ -1,0 +1,7 @@
+# CPU execution validated with the local CUDA-capable PyTorch build 2.11.0+cu128.
+# Select the PyTorch wheel/index appropriate to your machine.
+torch==2.11.0
+numpy==1.26.4
+Pillow==10.4.0
+PyYAML==6.0.3
+huggingface-hub==0.36.2

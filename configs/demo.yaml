@@ -1,0 +1,25 @@
+# Four CholecSeg8k training frames with 13-channel masks; four target frames without masks.
+# Two short updates per client; demonstrates execution, not model quality.
+seed: 0
+steps: 2
+merge_every: 2
+visualization_every: 1
+visualization_max_samples: 4
+image_size: 224
+num_classes: 13
+min_lr: 0.00001
+head_detach_until: 100
+reconstruction_until: 400
+reconstruction_weight: 0.1
+encoder_train_start: 200
+encoder_train_end: 300
+supervised:
+  manifest: examples/cholec/supervised.json
+  lr: 0.00001
+  weight_decay: 0.0
+  batch_size: 1
+unlabeled:
+  manifest: examples/cholec/unlabeled.json
+  lr: 0.00004
+  weight_decay: 0.000001
+  batch_size: 1

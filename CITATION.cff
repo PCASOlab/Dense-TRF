@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use DenseTRF, please cite the accompanying paper."
+title: "DenseTRF: Texture-Aware Unsupervised Representation Adaptation for Surgical Scene Dense Prediction"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Liao
+    given-names: Guiqiu
+  - family-names: Jogan
+    given-names: Matjaž
+  - family-names: Hashimoto
+    given-names: Daniel A.
+repository-code: "https://github.com/PCASOlab/Dense-TRF"
+url: "https://arxiv.org/abs/2605.11265"

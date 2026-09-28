@@ -1,0 +1,25 @@
+{
+  "color_order": "RGB",
+  "classes": [
+    "foreground",
+    "background"
+  ],
+  "samples": [
+    {
+      "id": "unlabeled_00",
+      "image": "unlabeled_00.png"
+    },
+    {
+      "id": "unlabeled_01",
+      "image": "unlabeled_01.png"
+    },
+    {
+      "id": "unlabeled_02",
+      "image": "unlabeled_02.png"
+    },
+    {
+      "id": "unlabeled_03",
+      "image": "unlabeled_03.png"
+    }
+  ]
+}

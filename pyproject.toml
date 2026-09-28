@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "densetrf"
+version = "0.1.0"
+description = "DenseTRF: slot-based representations and two-branch surgical target adaptation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2,<3", "numpy>=1.24,<3", "Pillow>=9.1", "PyYAML>=6", "huggingface-hub>=0.24,<2"]
+
+[project.scripts]
+densetrf = "densetrf.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["densetrf*"]
+
+[tool.setuptools.package-data]
+densetrf = ["base_manifest.json"]
+
+[tool.setuptools.data-files]
+"share/densetrf/licenses" = ["licenses/DINOv3.md", "licenses/VideoSAUR.txt", "THIRD_PARTY_NOTICES.md"]

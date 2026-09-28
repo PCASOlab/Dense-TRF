@@ -1,0 +1,40 @@
+{
+  "color_order": "BGR",
+  "classes": [
+    "Black Background",
+    "Abdominal Wall",
+    "Liver",
+    "Gastrointestinal Tract",
+    "Fat",
+    "Grasper",
+    "Connective Tissue",
+    "Blood",
+    "Cystic Duct",
+    "L-hook Electrocautery",
+    "Gallbladder",
+    "Hepatic Vein",
+    "Liver Ligament"
+  ],
+  "samples": [
+    {
+      "id": "supervised_000",
+      "image": "supervised_000.png",
+      "mask": "supervised_000_masks.npz"
+    },
+    {
+      "id": "supervised_001",
+      "image": "supervised_001.png",
+      "mask": "supervised_001_masks.npz"
+    },
+    {
+      "id": "supervised_002",
+      "image": "supervised_002.png",
+      "mask": "supervised_002_masks.npz"
+    },
+    {
+      "id": "supervised_003",
+      "image": "supervised_003.png",
+      "mask": "supervised_003_masks.npz"
+    }
+  ]
+}

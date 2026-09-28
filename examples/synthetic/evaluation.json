@@ -1,0 +1,19 @@
+{
+  "color_order": "RGB",
+  "classes": [
+    "foreground",
+    "background"
+  ],
+  "samples": [
+    {
+      "id": "evaluation_00",
+      "image": "evaluation_00.png",
+      "mask": "evaluation_00.npz"
+    },
+    {
+      "id": "evaluation_01",
+      "image": "evaluation_01.png",
+      "mask": "evaluation_01.npz"
+    }
+  ]
+}

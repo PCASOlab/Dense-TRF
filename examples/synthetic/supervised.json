@@ -1,0 +1,29 @@
+{
+  "color_order": "RGB",
+  "classes": [
+    "foreground",
+    "background"
+  ],
+  "samples": [
+    {
+      "id": "supervised_00",
+      "image": "supervised_00.png",
+      "mask": "supervised_00.npz"
+    },
+    {
+      "id": "supervised_01",
+      "image": "supervised_01.png",
+      "mask": "supervised_01.npz"
+    },
+    {
+      "id": "supervised_02",
+      "image": "supervised_02.png",
+      "mask": "supervised_02.npz"
+    },
+    {
+      "id": "supervised_03",
+      "image": "supervised_03.png",
+      "mask": "supervised_03.npz"
+    }
+  ]
+}

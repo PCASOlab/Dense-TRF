@@ -1,0 +1,36 @@
+{
+  "color_order": "BGR",
+  "classes": [
+    "Black Background",
+    "Abdominal Wall",
+    "Liver",
+    "Gastrointestinal Tract",
+    "Fat",
+    "Grasper",
+    "Connective Tissue",
+    "Blood",
+    "Cystic Duct",
+    "L-hook Electrocautery",
+    "Gallbladder",
+    "Hepatic Vein",
+    "Liver Ligament"
+  ],
+  "samples": [
+    {
+      "id": "unlabeled_000",
+      "image": "unlabeled_000.png"
+    },
+    {
+      "id": "unlabeled_001",
+      "image": "unlabeled_001.png"
+    },
+    {
+      "id": "unlabeled_002",
+      "image": "unlabeled_002.png"
+    },
+    {
+      "id": "unlabeled_003",
+      "image": "unlabeled_003.png"
+    }
+  ]
+}

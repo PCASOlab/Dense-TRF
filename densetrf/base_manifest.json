@@ -1,0 +1,26 @@
+{
+  "repo_id": "GuiqiuLiao/DenseTRF_base",
+  "revision": "56d71ef4f540def964c1df893edf9875cda17b58",
+  "files": {
+    "adapter.pth": {
+      "size": 6309760,
+      "sha256": "c215de10e0d15439dfed4ff864fabc5e474c29ba488fcb08c40072035172549f"
+    },
+    "decoder.pth": {
+      "size": 17005493,
+      "sha256": "50837d605f19266f8f3b75f055e39731222c7b9d963e56c865bced12e431ddd8"
+    },
+    "encoder.pth": {
+      "size": 346313266,
+      "sha256": "a781ed8c10f608a2a05ed25c432b90b4a48756e647c3b38af446586fa3fc0520"
+    },
+    "initializer.pth": {
+      "size": 3632,
+      "sha256": "a4324b975b31c35fe1287fe3274f264a967ed1d9c1c9a759185a6226fc55cb17"
+    },
+    "processor.pth": {
+      "size": 2374035,
+      "sha256": "eb0ea4e51885246cae2d99b0f2431bc80067d19234d57a62a86732b2277c5567"
+    }
+  }
+}

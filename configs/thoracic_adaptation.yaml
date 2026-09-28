@@ -1,0 +1,23 @@
+# Configuration matching the inspected research-code loss thresholds.
+# Supply full manifests; demo samples are not a paper reproduction dataset.
+seed: 0
+steps: 500
+merge_every: 100
+image_size: 128
+num_classes: 2
+min_lr: 0.00001
+head_detach_until: 100
+reconstruction_until: 400
+reconstruction_weight: 0.1
+encoder_train_start: 200
+encoder_train_end: 300
+supervised:
+  manifest: data/thoracic/supervised.json
+  lr: 0.00001
+  weight_decay: 0.0
+  batch_size: 2
+unlabeled:
+  manifest: data/thoracic/unlabeled.json
+  lr: 0.00004
+  weight_decay: 0.000001
+  batch_size: 8

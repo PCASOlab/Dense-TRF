@@ -1,0 +1,52 @@
+{
+  "source_dataset": "CholecSeg8k",
+  "source_clip_count": 101,
+  "training_clip_count": 5,
+  "adaptation_clip_count": 96,
+  "split": "sorted clip names: first 5% supervised, remaining 95% adaptation",
+  "train_config": "working_para/working_dir_root_train_cholec_super.py",
+  "adaptation_source_config": "working_para/working_dir_root_eval_cholec_super.py",
+  "frame_index": 0,
+  "samples": {
+    "supervised_000": {
+      "source_clip": "clip_000000.pkl",
+      "frame": 0,
+      "image_sha256": "75d20a20e5a0b8652f54e31680c374846607baa84203b84bbcda8c64941cf667"
+    },
+    "supervised_001": {
+      "source_clip": "clip_000001.pkl",
+      "frame": 0,
+      "image_sha256": "7d718045eac4f3dda48437b9d3adac22603bb6d1f8fc666b73fe2bf7fa8a935e"
+    },
+    "supervised_002": {
+      "source_clip": "clip_000002.pkl",
+      "frame": 0,
+      "image_sha256": "592ce555b5d535d57d4bb686d054925df3207d97f1a75b26755dd2cf702d819b"
+    },
+    "supervised_003": {
+      "source_clip": "clip_000004.pkl",
+      "frame": 0,
+      "image_sha256": "f1e9a21af04faead3e8fc12ede5fd0b19c54c9c9dd9b30fce7aacb5abdc3f649"
+    },
+    "unlabeled_000": {
+      "source_clip": "clip_000005.pkl",
+      "frame": 0,
+      "image_sha256": "63c66868b936755ea2b346a69404eeabf4b09754b98b833de190a5a97edd7bff"
+    },
+    "unlabeled_001": {
+      "source_clip": "clip_000036.pkl",
+      "frame": 0,
+      "image_sha256": "76f84e4e992b888a3c1cbce6c18b0edbeeb7b308306b1d8fa206939f397bd8a8"
+    },
+    "unlabeled_002": {
+      "source_clip": "clip_000068.pkl",
+      "frame": 0,
+      "image_sha256": "1918ca5a85c26b017f5efc2640d09083b0b24573bd523d4b37869dc5738070be"
+    },
+    "unlabeled_003": {
+      "source_clip": "clip_000100.pkl",
+      "frame": 0,
+      "image_sha256": "1bb8f81df6417f1d3282799ed84ab73a5f0bfc56b788162c408d600ec636af48"
+    }
+  }
+}

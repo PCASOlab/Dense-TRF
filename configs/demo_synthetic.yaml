@@ -1,0 +1,22 @@
+# Optional synthetic execution test, independent of clinical data.
+seed: 0
+steps: 2
+merge_every: 2
+image_size: 128
+num_classes: 2
+min_lr: 1.0e-05
+head_detach_until: 100
+reconstruction_until: 400
+reconstruction_weight: 0.1
+encoder_train_start: 200
+encoder_train_end: 300
+supervised:
+  manifest: examples/synthetic/supervised.json
+  lr: 1.0e-05
+  weight_decay: 0.0
+  batch_size: 1
+unlabeled:
+  manifest: examples/synthetic/unlabeled.json
+  lr: 4.0e-05
+  weight_decay: 1.0e-06
+  batch_size: 1
