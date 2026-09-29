@@ -2,7 +2,7 @@
 
 ## Workflow
 
-The historical workflow described by the authors is base representation pretraining (research client 11), followed by initialization of supervised client 6 and unlabeled target client 9 from the same base checkpoint. Only clients 6 and 9 participate in adaptation averaging. Clients 5/6/7 originally shared the same full concatenation model.
+The historical workflow described by the authors is base representation pretraining (research client 1), followed by initialization of supervised client 2 and unlabeled target client 3 from the same base checkpoint. Only clients 2 and 3 participate in adaptation averaging. Clients 5/6/7 originally shared the same full concatenation model.
 
 For shared representation parameters, the update is `theta_next = (theta_supervised + theta_unlabeled) / 2`. The dense head belongs only to the supervised client. The supervised stream can influence the unlabeled client's representation through this merge; only the unlabeled client's **local objective** is reconstruction-only.
 
